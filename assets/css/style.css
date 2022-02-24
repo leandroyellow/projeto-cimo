@@ -1,0 +1,173 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* font-family: 'Bebas Neue', cursive; */
+   font-family: 'Roboto Condensed', sans-serif;
+   font-size: 13px;
+}
+
+.container{
+   max-width: 1200px;
+   margin: auto;
+}
+
+header{
+   display: flex;
+   flex-direction: column;
+   
+
+}
+header .tarja{
+   background-color: #FFDA00;
+   height: 45px;
+   display: flex;
+   align-items: center;
+}
+header .tarja-itens{
+   flex: 1;
+   display: flex;
+   
+   justify-content: space-between;
+   
+}
+header .tarja-item{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+header .tarja-item div{
+   padding: 2px;
+   font-size: 13px;
+}
+header .tarja-item div.text-bold{
+   font-weight: bold;
+}
+header .menu{
+   
+   height: calc(100vh + 45px);
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.menu-left-right{
+   background-color: transparent;
+   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); 
+   height: 105px;
+   display: flex;
+   
+   justify-content: space-between;
+   align-items: center;
+}
+.menu-left-right .left, .menu-left-right .right{
+   display: flex;
+   align-items: center;
+}
+
+nav ul{
+   display: flex;
+}
+nav ul li{
+   list-style: none;
+   
+}
+nav ul a{
+   text-decoration: none;
+   padding: 10px;
+   font-size: 12px;
+   color: #FFDA00;
+}
+nav ul a:hover{
+   color: #FFFBE3;
+}
+header .right div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 30px;
+}
+header .right div input{
+   border: 0;
+   outline: 0;
+   background-color: transparent;
+   color: #FFDA00;
+}
+header .right div input::-webkit-input-placeholder{
+   color: #FFDA00;
+}
+header .right .pesquisa{
+   border: 2px solid #FFDA00;
+   padding: 15px;
+}
+header .right .img-carrinho{
+   background-color: #292929;
+   width: 90px;
+   height: 90px;
+}
+
+
+section.primeira{
+   background-image: url(../../media/canivete.png);
+   background-size: cover;
+   background-position: center;
+   flex: 1;
+   width: 100%;
+   position: relative;
+   top: -105px;
+   z-index: -1;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.primeira .conteudo{
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   margin-right: 100px;
+   width: 100vw;
+   flex-direction: column;   
+}
+
+.primeira .conteudo h2{
+   font-family: 'Bebas Neue', cursive; 
+   font-size: 40px;
+   color: #FFFBE3;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   width: 250px;
+   
+}
+.button{
+   
+   padding: 25px;
+   background-color: #FFDA00;
+   display: inline-flex;
+   max-width: 160px;
+}
+.button a{
+   padding-right: 30px;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+
+section.promo{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+
+}
+.section-promo1{
+display: flex;
+}
+.section-promo1 .section-promo-img{
+   flex: 3;
+   background-color: aqua;
+}
+.section-promo1 .section-promo-prod{
+   flex: 2;
+   background-color: red;
+}
+
