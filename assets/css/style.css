@@ -532,3 +532,71 @@ flex-direction: row-reverse;
 .section-premium .titulo-light{
    width: 255px;
 }
+
+
+.section-depoimento{
+   max-width: 1200px;
+   padding: 50px 0px;
+   margin: auto;
+   overflow: hidden;
+}
+.section-depoimento h3.titulo-menor{
+   text-align: center;
+   margin-bottom: 50px;
+}
+.depoimentos-sliders{
+   width: 1000vw;
+   height: 500px;
+}
+.section-depoimento .slide{
+   width: 280px;
+   height: 100%;
+   display: inline-block;
+   margin: 10px;
+   position: relative;
+}
+.section-depoimento .img{
+   display: flex;
+   justify-content: center;
+   
+   
+}
+.section-depoimento .conteudo{
+   display: inline-block;
+   border: 1px solid #4A4A49;
+   border-radius: 5px;
+   position: absolute;
+   top: 40px;
+   z-index: -99;
+}
+.section-depoimento .conteudo-titulo{
+   text-align: center;
+   margin-top: 60px;
+   font-family: 'Bebas Neue', cursive;
+   font-size: 25px;
+}
+.section-depoimento .conteudo-funcao{
+   text-align: center;
+   color: #4A4A49;
+   font-size: 13px;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+.section-depoimento .conteudo-estrela{
+   text-align: center;
+}
+.section-depoimento .conteudo-desc{
+   text-align: center;
+}
+.section-depoimento .conteudo-desc p{
+   color: #292929;
+   line-height: 20px;
+   padding: 20px;
+}
+
+
+
+.next{
+   height: 100px;
+   background-color: yellowgreen;
+}
