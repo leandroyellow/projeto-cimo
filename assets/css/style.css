@@ -35,6 +35,13 @@ h3.titulo-menor{
    font-family: 'Bebas Neue', cursive;
    letter-spacing: 5px;
 }
+h2.titulo-light{
+   font-family: 'Bebas Neue', cursive; 
+   font-size: 40px;
+   color: #FFFBE3;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+}
 
 header{
    display: flex;
@@ -151,14 +158,8 @@ section.primeira{
    flex-direction: column;   
 }
 
-.primeira .conteudo h2{
-   font-family: 'Bebas Neue', cursive; 
-   font-size: 40px;
-   color: #FFFBE3;
-   text-transform: uppercase;
-   letter-spacing: 5px;
+.primeira .conteudo h2.titulo-light{
    width: 250px;
-   
 }
 
 .button a{
@@ -512,3 +513,22 @@ flex-direction: row-reverse;
    border-radius: 20px;
    font-size: 20px;
 } */
+
+.section-premium{
+   height: 690px;
+   background-image: url(../../media/fundocanivete.jpg);
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+.section-premium .desc{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   padding-left: 100px;
+}
+.section-premium .titulo-light{
+   width: 255px;
+}
