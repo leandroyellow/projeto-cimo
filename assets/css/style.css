@@ -98,13 +98,14 @@ nav ul{
 }
 nav ul li{
    list-style: none;
-   
+   position: relative;
 }
 nav ul a{
    text-decoration: none;
    padding: 10px;
    font-size: 12px;
    color: #FFDA00;
+   
 }
 nav ul a:hover{
    color: #FFFBE3;
@@ -117,7 +118,7 @@ nav ul a:hover{
    background-color: #f5f5f5;
    border: 1px solid #4A4A49;
    position: absolute;
-   top: 130px;
+   top: 40px;
    height: 215px;
    width: 800px;
 }
@@ -148,7 +149,6 @@ nav ul a:hover{
    display: flex;
    justify-content: center;
    align-items: center;
-   background-color: yellowgreen;
    margin: 5px;
    width: 80px;
    height: 20px;
