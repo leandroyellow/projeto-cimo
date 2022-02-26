@@ -163,10 +163,11 @@ section.primeira{
 }
 
 .button a{
-   padding-right: 30px;
+   padding-right: 20px;
    text-transform: uppercase;
    font-weight: bold;
    text-decoration: none;
+   font-size: 12px;
 }
 
 
@@ -546,7 +547,7 @@ flex-direction: row-reverse;
 }
 .depoimentos-sliders{
    width: 1000vw;
-   height: 500px;
+   height: 400px;
 }
 .section-depoimento .slide{
    width: 280px;
@@ -596,7 +597,122 @@ flex-direction: row-reverse;
 
 
 
-.next{
-   height: 100px;
-   background-color: yellowgreen;
+.section-atualidade{
+   background-color: #000;
+   display: flex;
+   flex-direction: column;
+}
+.section-atualidade .superior{
+   display: flex;
+}
+.section-atualidade .conteudo1,
+.section-atualidade .conteudo2,
+.section-atualidade .conteudo3{
+   background-position: center;
+   background-size: cover;
+   flex: 1;
+   display: flex;
+   justify-content: end;
+   align-items: flex-end;
+   
+}
+.section-atualidade .conteudo1{
+   background-image: url(../../media/atual1.jpg);
+}
+.section-atualidade .conteudo2{
+   background-image: url(../../media/atual2.jpg);
+}
+.section-atualidade .conteudo3{
+   background-image: url(../../media/atual3.jpg);
+}
+.section-atualidade .titulo{
+   flex: 2;
+   padding: 40px 0px 40px 20px;
+}
+.section-atualidade .titulo h2{
+   font-size: 20px;
+}
+.section-atualidade .button{
+   flex: 1;
+}
+.section-atualidade .inferior{
+   background-color: #f5f5f5;
+   display: flex;
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+.section-atualidade .inferior-titulo,
+.section-atualidade .form,
+.section-atualidade .conteudo-button{
+   flex: 1;
+   padding: 20px;
+}
+.section-atualidade .form{
+   display: flex;
+   justify-content: center;
+}
+.section-atualidade .form form{
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   justify-content: center;
+   
+
+}
+.section-atualidade .form form input{
+   font-size: 15px;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 7px;
+   border: 1px solid #4A4A49;
+}
+.section-atualidade .conteudo-button{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+
+footer .social{
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+}
+footer .social img{
+   padding: 20px;
+}
+footer .mapas{
+   background-color: #f5f5f5;
+}
+footer .mapa{
+   display: flex;
+   padding-bottom: 50px;
+   padding-top: 30px;
+}
+footer .mapa .conteudo{
+   flex: 1;
+}
+footer .conteudo-titulo{
+   text-transform: uppercase;
+   font-family: 'Bebas Neue', cursive;
+   margin-bottom: 20px;
+}
+footer .conteudo ul li{
+   list-style: none;
+   text-transform: uppercase;
+}
+footer .pagamento-envio{
+   display: flex;
+   padding-bottom: 50px;
+}
+footer .pagamento-envio img{
+   height: 25px;
+}
+footer .pagamentos{
+   flex: 2;
+}
+footer .envios,
+footer .seguranca{
+   flex: 1;
 }
